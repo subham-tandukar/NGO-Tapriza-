@@ -3,3 +3,145 @@
     margin-top: 0;
   }
 }
+
+@media (max-width: 959.9px) {
+  footer .footer-content .footer-wrapper .quick-links,
+  footer .footer-content .footer-wrapper .contact-info {
+    margin-top: 1rem;
+  }
+
+  .charity {
+    .wrapper {
+      .content {
+        h3 {
+          font-size: 16px;
+        }
+        img {
+          height: 50px;
+        }
+      }
+    }
+  }
+  .about-us {
+    .wrapper {
+      .about-img {
+        img {
+          height: 400px;
+          object-fit: cover;
+          margin: 0 auto;
+          display: block;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  .contact {
+    .form-info {
+      svg {
+        height: 300px;
+      }
+    }
+  }
+  .main-activities,
+  .main-event {
+    .wrapper {
+      .activities-img,
+      .event-img {
+        justify-content: center;
+      }
+      .wrap {
+        width: 80%;
+        margin: 1rem auto;
+      }
+
+      .content {
+        margin-left: 0;
+        min-height: auto;
+      }
+    }
+  }
+  .contact {
+    .wrapper {
+      .content {
+        h5 {
+          font-size: 12px;
+        }
+        i {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  .org-head {
+    p {
+      width: 75%;
+    }
+  }
+}
+
+@media (max-width: 639.9px) {
+  footer .foot {
+    flex-direction: column;
+
+    .social-media {
+      margin-top: 1rem;
+    }
+  }
+
+  .charity {
+    border-radius: 0;
+    margin-top: 1rem;
+    .wrapper {
+      .content {
+        h3 {
+          font-size: 16px;
+        }
+        img {
+          height: 50px;
+        }
+      }
+    }
+  }
+  .about-us {
+    .wrapper {
+      .about-img {
+        img {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .main-activities,
+  .main-event {
+    .wrapper {
+      .wrap {
+        width: 100%;
+      }
+    }
+  }
+  .contact {
+    .wrapper {
+      .content {
+        i {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
+  .org-head {
+    p {
+      width: 100%;
+    }
+  }
+
+  .about-us {
+    .wrapper {
+      .about-list {
+        margin-left: 0;
+      }
+    }
+  }
+}

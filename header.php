@@ -33,7 +33,7 @@
 
         </div>
         <div class="img">
-            <img src="./assets/img/tapri_logo.png" alt="loading">
+            <img src="./assets/img/logo.png" alt="loading">
         </div>
         <span>Loading... Please wait</span>
     </div>
@@ -71,11 +71,11 @@
                     <nav class="uk-visible@l" uk-navbar>
                         <ul class="navbar uk-flex-middle">
                             <li><a href="index.php" class="nav-item">home</a></li>
-                            <li><a href="#" class="nav-item">about</a></li>
-                            <li><a href="#" class="nav-item">event</a></li>
-                            <li><a href="#" class="nav-item">activities</a></li>
-                            <li><a href="#" class="nav-item">partner</a></li>
-                            <li><a href="#" class="nav-item">gallery</a></li>
+                            <li><a href="about-us.php" class="nav-item">about</a></li>
+                            <li><a href="event.php" class="nav-item">event</a></li>
+                            <li><a href="activities.php" class="nav-item">activities</a></li>
+                            <li><a href="partners.php" class="nav-item">partner</a></li>
+                            <li><a href="gallery.php" class="nav-item">gallery</a></li>
                             
                             <!-- <li class="dropdown">
                                 <a href="#" class="nav-item" >downloads<span uk-icon="icon: chevron-down"
@@ -87,7 +87,7 @@
                                     </ul>
                                 </div>
                             </li> -->
-                            <li><a href="#" class="nav-item">contact us</a></li>
+                            <li><a href="contact-us.php" class="nav-item">contact us</a></li>
                             <li><button class="uk-button uk-margin-small-left"><a href="#">Our School</a></button></li>
                         </ul>
                     </nav>
@@ -106,10 +106,10 @@
 
                 <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-wrap uk-margin-top">
                     <div>
-                        <a href="index.php"><img src="./assets/img/tapri_logo.png" alt="logo" style="width:60px"></a>
+                        <a href="index.php"><img src="./assets/img/logo.png" alt="logo" style="width:60px"></a>
                     </div>
                     <div>
-                        <p class="p1 uk-margin-remove " style="color:#fff; font-weight:bold">Tapriza Association for Social <br> Help In Dolpa(TASHI-D)</p>
+                        <p class="p1 uk-margin-remove-bottom uk-margin-top" style="color:#fff; font-weight:bold">Tapriza Association for Social <br> Help In Dolpa(TASHI-D)</p>
                     </div>
                 </div>
 
@@ -119,8 +119,8 @@
                     <li><a href="index.php">home</a></li>
                     <li><a href="about-us.php">about</a></li>
                     <li><a href="event.php">event</a></li>
-                    <li><a href="facility.php">activities</a></li>
-                    <li><a href="facility.php">partner</a></li>
+                    <li><a href="activities.php">activities</a></li>
+                    <li><a href="partners.php">partner</a></li>
                     <li><a href="gallery.php">gallery</a></li>
                 
                     <!-- <ul uk-accordion class="uk-margin-remove">                          
@@ -138,7 +138,7 @@
                     <li><a href="contact-us.php">contact us</a></li>
                    
                 </ul>
-                <button class="uk-button"><a href="admission-form.php">Our Schoo</a></button>
+                <button class="uk-button"><a href="#">Our School</a></button>
                 <p style="color:#fff"><i class="fas fa-phone-alt uk-margin-small-right"></i>9851238221, (01 4363468), 9841448221</p>
                 <p style="color:#fff"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Kapurdhara, Nepal</p>
                 
